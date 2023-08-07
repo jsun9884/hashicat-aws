@@ -11,7 +11,11 @@ cat << EOM > /var/www/html/index.html
   <!-- BEGIN -->
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
   <center><h2>Meow World!</h2></center>
-  Welcome to ${PREFIX}'s app. Replace this text with your own.
+<<<<<<< HEAD
+  Jisun Welcome to ${PREFIX}'s app. Replace this text with your own.
+=======
+  Nodify at github Welcome to ${PREFIX}'s app. Replace this text with your own.
+>>>>>>> e3d55961ec1bede0f6e82b52360c804c4e0f18bf
   <!-- END -->
 
   </div>
